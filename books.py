@@ -53,4 +53,4 @@ def analysis(path, url):
 				print os.path.join(path, node)
 				download(address + li.attrs.get('data-href'), os.path.join(path, node))
 		
-analysis(directory, 'http://www.lidown.com/?dir=Book/%E7%B2%BE%E5%93%81%E4%B9%A6%E5%BA%93/Kindle%E4%BC%B4%E4%BE%A3%E7%B2%BE%E5%93%81%E4%B9%A6%E5%BA%93')
+analysis(directory, 'http://www.lidown.com/')
